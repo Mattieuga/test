@@ -16,7 +16,6 @@
     window._parseUserObjects = [];
     Parse.User.extend({
         initialize: function() {
-            alert("INIT");
             window._parseUserObjects.push(this);
         }
     });
