@@ -1,10 +1,7 @@
 // Load scripts
 
 var parse_sdk_js = "http://www.parsecdn.com/js/parse-1.1.14.min.js";
-$.getScript(parse_sdk_js, function() {
-  var internal_js = "https://raw.github.com/Mattieuga/test/master/codecademy_internal.js";
-  $.getScript(internal_js);
-});
+$.getScript(parse_sdk_js;
 
 
 // Build HTML page
