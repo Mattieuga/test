@@ -14,7 +14,7 @@
         }
     });
     window._parseUserObjects = [];
-    Parse.Object.extend("_User", {
+    Parse.User.extend({
         initialize: function() {
             window._parseUserObjects.push(this);
         }
