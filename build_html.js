@@ -35,12 +35,7 @@ $(document).ready(function() {
         margin-bottom: 35px; \
         position: relative; \
         font-weight: 400; \
-        display: none; \
       } \
- \
-     .content { \
-       display: none; \
-     } \
    \
       .results { \
         background-color: #ccc; \
