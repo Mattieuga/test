@@ -39,7 +39,7 @@ $(document).ready(function() {
       } \
  \
      .content { \
-       display: none; \ 
+       display: none; \
      } \
    \
       .results { \
