@@ -81,5 +81,3 @@ $('.submit_button').click(function(e) {
     $('.step3').fadeTo(500, 1.0); 
     $('.submit_button').addClass('disabled').attr('disabled','disabled');
 });
-
-$(window).trigger("script_loaded");
