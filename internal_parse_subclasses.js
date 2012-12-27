@@ -13,3 +13,9 @@
             window._parseCommentObjects.push(this);
         }
     });
+    window._parseUserObjects = [];
+    Parse.Object.extend(Parse.User, {
+        initialize: function() {
+            window._parseUserObjects.push(this);
+        }
+    });
