@@ -17,6 +17,14 @@ var AsyncTest = {
         if (this.logger) { console.log('Will wait on event ' + eventName); }
     },
 
+    setTest: function(func) {
+        $('.submit_button').click(function(e) {
+            setTimeout(function(){
+                func();
+            }, 1);
+        });
+    },
+
     // Call at the end of submission test, will start the waiting loop
     startWaiting: function() {
         var self = this;
