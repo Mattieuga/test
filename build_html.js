@@ -7,9 +7,9 @@ $(document).ready(function() {
     </div> \
    \
     <div class="content"> \
-      <img class="step2" height="59" src="http://files.parse.com/7753f2de-837b-4c04-a6ae-f5180e71b574/2935f557-0b05-4a7f-aec9-f83261ecaba3-Screen%20Shot%202012-12-20%20at%203.45.15%20PM.png"/> \
-      <img class="step3" height="22" src="http://files.parse.com/7753f2de-837b-4c04-a6ae-f5180e71b574/32f308cf-d859-413d-af83-e66ea97dbe05-Screen%20Shot%202012-12-20%20at%203.40.47%20PM.png"/> \
-      <img class="step1" height="35" src="http://files.parse.com/7753f2de-837b-4c04-a6ae-f5180e71b574/3d729aef-51b5-41c6-b56a-03dc4c0c78b2-Screen%20Shot%202012-12-20%20at%203.39.34%20PM.png"/> \
+      <img class="step2" height="59" src="http://files.parse.com/7753f2de-837b-4c04-a6ae-f5180e71b574/68083eea-cfbb-4ff8-a582-c8d6a112b80b-Screen%20Shot%202012-12-26%20at%202.59.41%20PM.png"/> \
+      <img class="step3" height="22" src="http://files.parse.com/7753f2de-837b-4c04-a6ae-f5180e71b574/1592bfa9-250e-485c-9904-707a8fbd67a3-Screen%20Shot%202012-12-26%20at%202.59.45%20PM.png"/> \
+      <img class="step1" height="35" src="http://files.parse.com/7753f2de-837b-4c04-a6ae-f5180e71b574/ba403e17-ae82-4f61-b9a6-426d1a2a93b3-Screen%20Shot%202012-12-26%20at%202.59.35%20PM.png"/> \
       <a href="#" class="submit_button disabled">Run your code</a> \
       <div class="results"> \
         <p class="resultsText"></p> \
