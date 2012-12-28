@@ -17,6 +17,9 @@ var AsyncTest = {
         if (this.logger) { console.log('Will wait on event ' + eventName); }
     },
 
+    // Set the test to run. This is just to avoid having to write the button hadnler
+    // and the set timeout. The set timeout is used to ensure the user's button handler is
+    // executed first
     setTest: function(func) {
         $('.submit_button').click(function(e) {
             setTimeout(function(){
@@ -69,7 +72,9 @@ var AsyncTest = {
         // Trigger the event
         $(window).trigger(this.internalEvent, [eventName, passed, message]);
     },
-  
+    
+    // This is the same as triggerEvent("someEvent", false, message). Just avoids writing a nonesense event
+    // name when you just want to fail
     fail: function(message) {
         if (typeof(message) === 'nil') {
             message = 'Looks like something went wrong on our end. Try reloading the page.';
