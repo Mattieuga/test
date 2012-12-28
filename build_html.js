@@ -79,7 +79,7 @@ $(document).ready(function() {
       .step2 { \
         position: absolute; \
         padding-right: 100px; \
-        top: 85px; \
+        top: 80px; \
         right: 43%; \
         z-index: -1; \
         opacity: 0.2; \
