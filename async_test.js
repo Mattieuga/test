@@ -84,10 +84,6 @@ var AsyncTest = {
     }
 };
 
-$('.step1').css({ opacity: 1.0 });
-$('.step2').css({ opacity: 0.2 });
-$('.submit_button').addClass('disabled').attr('disabled');
-
 // Step label sequence
 $('.step1').fadeTo(500, 0.2);
 $('.step2').fadeTo(500, 1.0);
